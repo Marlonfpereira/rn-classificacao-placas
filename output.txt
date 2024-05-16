@@ -1,0 +1,165 @@
+5 fits failed out of a total of 128.
+The score on these train-test partitions for these parameters will be set to nan.
+If these failures are not expected, you can try to debug them by setting error_score='raise'.
+
+Below are more details about the failures:
+--------------------------------------------------------------------------------
+5 fits failed with the following error:
+Traceback (most recent call last):
+  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\wrappers\scikit_learn.py", line 248, in fit
+    return super().fit(x, y, **kwargs)
+  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\wrappers\scikit_learn.py", line 175, in fit
+    history = self.model.fit(x, y, **fit_args)
+  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\tensorflow\python\framework\constant_op.py", line 102, in convert_to_eager_tensor
+    return ops.EagerTensor(value, ctx.device_name, dtype)
+tensorflow.python.framework.errors_impl.InternalError: Failed copying input tensor from /job:localhost/replica:0/task:0/device:CPU:0 to /job:localhost/replica:0/task:0/device:GPU:0 in order to run _EagerConst: Dst tensor is not initialized.
+
+  warnings.warn(some_fits_failed_message, FitFailedWarning)
+
+  
+C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\sklearn\model_selection\_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.06248708 0.91023079 0.0963486  0.92245951 0.05490872 0.87833276
+ 0.05835343 0.89975888 0.05887013 0.91753358 0.10768171 0.92817774
+ 0.05566655 0.88525665 0.05652773 0.92025492 0.07320014 0.93210471
+        nan        nan 0.05900792 0.88921806 0.08119187 0.94460905
+ 0.07240785 0.92521527 0.1490527  0.93995866 0.0598691         nan
+        nan 0.94226661 0.06307268 0.90034446 0.06686187 0.87936616
+ 0.04478126 0.83802965 0.0575267  0.8835687  0.06389942 0.87988287
+ 0.06582845 0.91570789 0.0539442  0.87457803 0.06093696 0.89676195
+ 0.06513951 0.90981743 0.06482949 0.93238029 0.05814674 0.89142266
+ 0.05521874 0.89734757 0.05797451 0.89448845 0.0736824  0.93616951
+ 0.05170513 0.87123665 0.0532897  0.91887701]
+  warnings.warn(
+2024-05-15 23:47:08.645136: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 802621440 exceeds 10% of free system memory.
+Best: 0.9446090459823608 using {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.062487080693244934 (0.004753701388835907) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9102307856082916 (0.006889432668685913) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.0963486023247242 (0.014571134001016617) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9224595129489899 (0.01801583170890808) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.054908715188503265 (0.00048226118087768555) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8783327639102936 (0.001997917890548706) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.058353425934910774 (0.0008956249803304672) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8997588753700256 (0.021150529384613037) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05887013487517834 (3.444589674472809e-05) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9175335764884949 (0.009507417678833008) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.10768170654773712 (0.007716156542301178) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9281777441501617 (0.0012056529521942139) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05566655285656452 (0.0019290391355752945) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8852566480636597 (0.0182914137840271) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05652773007750511 (0.0015501193702220917) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9202549159526825 (0.006028264760971069) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.07320013828575611 (0.015604546293616295) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9321047067642212 (0.005752682685852051) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+nan (nan) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+nan (nan) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.0590079240500927 (0.0014123320579528809) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8892180621623993 (0.010609716176986694) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.08119187131524086 (0.009197380393743515) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9446090459823608 (0.006131589412689209) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.07240785285830498 (0.001308988779783249) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9252152740955353 (0.005477100610733032) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.1490527018904686 (0.007268346846103668) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9399586617946625 (0.00444367527961731) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05986910127103329 (0.00027557648718357086) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+nan (nan) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+nan (nan) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9422666132450104 (0.0015156567096710205) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.0630726832896471 (0.007888389751315117) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9003444612026215 (0.005063742399215698) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06686186604201794 (0.015742333605885506) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8793661594390869 (0.030037879943847656) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.04478126019239426 (0.008749570697546005) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8380296528339386 (0.01811918616294861) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05752669647336006 (0.004202548414468765) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8835687041282654 (0.017499148845672607) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06389941647648811 (0.0020323805510997772) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8798828721046448 (0.0003789067268371582) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06582845374941826 (0.006786081939935684) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9157078862190247 (0.004374802112579346) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05394419655203819 (0.0014467798173427582) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8745780289173126 (0.0015501081943511963) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06093696132302284 (0.02862555906176567) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.896761953830719 (0.010919749736785889) with: {'batch_size': 100, 'conv_filters': 16, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06513951160013676 (0.006717188283801079) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9098174273967743 (0.002135723829269409) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.06482948549091816 (0.007233893498778343) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9323802888393402 (0.0019634664058685303) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05814674496650696 (0.00013778731226921082) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8914226591587067 (0.005235940217971802) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.055218739435076714 (0.002445744350552559) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8973475694656372 (0.007922828197479248) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05797450803220272 (0.00010334141552448273) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.8944884538650513 (0.007130563259124756) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.07368239760398865 (0.013468824326992035) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9361695051193237 (0.008508443832397461) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 1, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.0517051313072443 (0.005959352478384972) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.871236652135849 (0.01357218623161316) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.05328970029950142 (0.0003789179027080536) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
+
+0.9188770055770874 (0.0028591156005859375) with: {'batch_size': 100, 'conv_filters': 32, 'conv_layers': 2, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}

@@ -1,0 +1,11 @@
+Best: 0.9749913811683655 using {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 50, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.9534963667392731 (0.007371693849563599) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 10, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.9645194411277771 (0.0033069252967834473) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 20, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.9716500043869019 (0.004168093204498291) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 30, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.9735445976257324 (0.0019979476928710938) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 40, 'learn_rate': 0.001, 'optimizer': 'Adam'}
+
+0.9749913811683655 (0.0024802088737487793) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 50, 'learn_rate': 0.001, 'optimizer': 'Adam'}
