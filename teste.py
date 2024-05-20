@@ -9,7 +9,6 @@ from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
 from tqdm import tqdm 
 
-# Carregar dados
 with h5py.File('dataset_ts_original.hdf5', 'r') as hf:
     X_train = np.array(hf['x_train']) / 255.0
     Y_train = to_categorical(np.array(hf['y_train']))
