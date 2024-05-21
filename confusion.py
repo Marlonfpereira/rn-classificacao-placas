@@ -10,11 +10,6 @@ import h5py
 # Se o modelo já estiver carregado em uma variável, você pode ignorar esta linha
 model = load_model('modelo.h5')
 
-# Supondo que X_test e y_test são seus dados de teste e rótulos
-# X_test: features do conjunto de teste
-# y_test: rótulos verdadeiros do conjunto de teste
-
-
 with h5py.File('dataset_ts_light_version.hdf5', 'r') as hf:
     x_test = np.array(hf['x_test'])/255.0
     y_test = to_categorical(np.array(hf['y_test']))

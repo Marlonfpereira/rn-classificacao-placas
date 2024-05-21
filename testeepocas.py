@@ -5,7 +5,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
 from keras.optimizers import SGD, Adam, RMSprop
 from keras.wrappers.scikit_learn import KerasClassifier
-# from scikeras.wrappers import KerasClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
 from tqdm import tqdm 
 
@@ -74,17 +73,6 @@ param_grid = { # 768
 grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=1, cv=2, verbose=1)
 grid_result = grid.fit(X_train, Y_train, validation_data=(X_val, Y_val))
 
-
-# results = []
-
-# # Executar o grid search
-# for params in tqdm(GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=-1, cv=3).fit(X_train, Y_train, validation_data=(X_val, Y_val)).grid_scores_):
-#     results.append(params)
-
-# # Imprimir os resultados
-# for mean, stdev, param in results:
-#     print()
-#     print(f"{mean} ({stdev}) with: {param}")
 
 # Imprimir os resultados
 print(f"Best: {grid_result.best_score_} using {grid_result.best_params_}")
