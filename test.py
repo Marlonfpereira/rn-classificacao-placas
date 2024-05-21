@@ -4,7 +4,7 @@ import numpy as np
 
 
 
-from keras.optimizers import SGD, Adam, RMSprop
+from keras.optimizers import Adam
 from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
@@ -39,19 +39,12 @@ model = Sequential()
 model.add(Conv2D(32, (3, 3), activation='relu', input_shape=(48, 48, 3)))
 model.add(MaxPooling2D((2, 2)))
 
-# # Segunda camada convolucional
-# model.add(Conv2D(64, (3, 3), activation='relu'))
-# model.add(MaxPooling2D((2, 2)))
-
-# # Terceira camada convolucional
-# model.add(Conv2D(128, (3, 3), activation='relu'))
-# model.add(MaxPooling2D((2, 2)))
-
 # Camada de achatamento
 model.add(Flatten())
 
 # Camada totalmente conectada
-model.add(Dense(128, activation='relu'))
+model.add(Dense(256, activation='relu'))
+model.add(Dense(256, activation='relu'))
 
 # Camada de saída
 model.add(Dense(43, activation='softmax'))
@@ -62,7 +55,7 @@ model.compile(optimizer=ot, loss='categorical_crossentropy', metrics=['accuracy'
 # Exibindo a arquitetura do modelo
 history = model.fit(X_train, Y_train, epochs=1, batch_size=50)
 
-
+model.save('modelo.h5')
 
 # Avaliar o modelo
 loss, accuracy = model.evaluate(X_test, Y_test)
