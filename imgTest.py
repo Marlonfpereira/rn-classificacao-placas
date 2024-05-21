@@ -7,6 +7,7 @@ from keras.models import load_model
 from keras.utils import to_categorical
 import h5py
 
+
 def get_description(value):
     descriptions = [
         'Speed limit (20km/h)',
@@ -55,61 +56,50 @@ def get_description(value):
     ]
     return descriptions[value]
 
-try:
-    with open('predictions.txt', 'r') as f:
-        pass
-except FileNotFoundError:
-    # Carregar o modelo treinado
-    # Se o modelo já estiver carregado em uma variável, você pode ignorar esta linha
-    model = load_model('modelo.h5')
 
-    # Supondo que X_test e y_test são seus dados de teste e rótulos
-    # X_test: features do conjunto de teste
-    # y_test: rótulos verdadeiros do conjunto de teste
+# Carregar o modelo treinado
+model = load_model('modelo.h5')
 
 
-    with h5py.File('dataset_ts_light_version.hdf5', 'r') as hf:
-        x_test = np.array(hf['x_test'])
-        y_test = to_categorical(np.array(hf['y_test']))
+with h5py.File('dataset_ts_light_version.hdf5', 'r') as hf:
+    x_test = np.array(hf['x_test'])
+    y_test = to_categorical(np.array(hf['y_test']))
+
+# Obter as previsões do modelo
+
+y_pred = model.predict(x_test/255.0)
+
+# Verificar se os rótulos verdadeiros são one-hot encoded ou classes
+if len(y_test.shape) > 1 and y_test.shape[1] > 1:
+    # Caso os rótulos verdadeiros estejam em formato one-hot encoded, converta-os para classes
+    y_test_classes = np.argmax(y_test, axis=1)
+else:
+    y_test_classes = y_test
+
+# Converter as previsões para classes
+y_pred_classes = np.argmax(y_pred, axis=1)
 
 
-    # Obter as previsões do modelo
-    y_pred = model.predict(x_test)
-
-    # Verificar se os rótulos verdadeiros são one-hot encoded ou classes
-    if len(y_test.shape) > 1 and y_test.shape[1] > 1:
-        # Caso os rótulos verdadeiros estejam em formato one-hot encoded, converta-os para classes
-        y_test_classes = np.argmax(y_test, axis=1)
-    else:
-        y_test_classes = y_test
-
-    # Converter as previsões para classes
-    y_pred_classes = np.argmax(y_pred, axis=1)
-
-
-    for i in range(243):
-        with open('predictions.txt', 'a') as f:
-            f.write(f"{i}")
-            f.write("-------------\n")
-            f.write("Prediction: {}\n".format(y_pred_classes[i]))
-            f.write("True label: {}\n".format(y_test_classes[i]))
-            f.write("Description of prediction: {}\n".format(get_description(y_pred_classes[i])))
-            f.write("Description of true label: {}\n".format(get_description(y_test_classes[i])))
-        
+def class2num(classe: list) -> int:
+    n = 0
+    for c in classe:
+        if c == 1:
+            return n
+        n += 1
 
 while True:
     print("Insira o número do teste que deseja checar: (-1 para sair)")
     try:
         num = int(input())
-        if num == -1: 
+        if num == -1:
             break
-        if 0 <= num <= 242:
-            with h5py.File('dataset_ts_light_version.hdf5', 'r') as hf:
-                X_test = np.array(hf['x_test'])
-                plt.imshow(X_test[num].astype('uint8'))
-                plt.axis('off') 
-                plt.show()
+        if 0 <= num < len(y_test):
+            plt.imshow(x_test[num].astype('uint8'))
+            plt.axis('off')
+            plt.title(
+                f'Predito: {y_pred_classes[num]} {get_description(y_pred_classes[num])}\nReal: {class2num(y_test[num])} {get_description(y_test_classes[num])}')
+            plt.show()
         else:
-            print("Invalid number")
+            print("Número inválido")
     except ValueError:
-        print("Invalid input")
+        print("Entrada inválida")
