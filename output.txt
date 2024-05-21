@@ -1,39 +1,4 @@
-5 fits failed out of a total of 128.
-The score on these train-test partitions for these parameters will be set to nan.
-If these failures are not expected, you can try to debug them by setting error_score='raise'.
-
-Below are more details about the failures:
---------------------------------------------------------------------------------
-5 fits failed with the following error:
-Traceback (most recent call last):
-  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\sklearn\model_selection\_validation.py", line 895, in _fit_and_score
-    estimator.fit(X_train, y_train, **fit_params)
-  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\wrappers\scikit_learn.py", line 248, in fit
-    return super().fit(x, y, **kwargs)
-  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\wrappers\scikit_learn.py", line 175, in fit
-    history = self.model.fit(x, y, **fit_args)
-  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
-    raise e.with_traceback(filtered_tb) from None
-  File "C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\tensorflow\python\framework\constant_op.py", line 102, in convert_to_eager_tensor
-    return ops.EagerTensor(value, ctx.device_name, dtype)
-tensorflow.python.framework.errors_impl.InternalError: Failed copying input tensor from /job:localhost/replica:0/task:0/device:CPU:0 to /job:localhost/replica:0/task:0/device:GPU:0 in order to run _EagerConst: Dst tensor is not initialized.
-
-  warnings.warn(some_fits_failed_message, FitFailedWarning)
-
-  
-C:\Users\marlo\miniconda3\envs\tf\lib\site-packages\sklearn\model_selection\_search.py:1051: UserWarning: One or more of the test scores are non-finite: [0.06248708 0.91023079 0.0963486  0.92245951 0.05490872 0.87833276
- 0.05835343 0.89975888 0.05887013 0.91753358 0.10768171 0.92817774
- 0.05566655 0.88525665 0.05652773 0.92025492 0.07320014 0.93210471
-        nan        nan 0.05900792 0.88921806 0.08119187 0.94460905
- 0.07240785 0.92521527 0.1490527  0.93995866 0.0598691         nan
-        nan 0.94226661 0.06307268 0.90034446 0.06686187 0.87936616
- 0.04478126 0.83802965 0.0575267  0.8835687  0.06389942 0.87988287
- 0.06582845 0.91570789 0.0539442  0.87457803 0.06093696 0.89676195
- 0.06513951 0.90981743 0.06482949 0.93238029 0.05814674 0.89142266
- 0.05521874 0.89734757 0.05797451 0.89448845 0.0736824  0.93616951
- 0.05170513 0.87123665 0.0532897  0.91887701]
-  warnings.warn(
-2024-05-15 23:47:08.645136: W tensorflow/core/framework/cpu_allocator_impl.cc:82] Allocation of 802621440 exceeds 10% of free system memory.
+Resultados obtidos com o GridSearch dos parâmetros da rede neural
 Best: 0.9446090459823608 using {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'Adam'}
 
 0.062487080693244934 (0.004753701388835907) with: {'batch_size': 50, 'conv_filters': 16, 'conv_layers': 1, 'dense_layers': 1, 'dense_units': 128, 'epochs': 5, 'learn_rate': 0.001, 'optimizer': 'SGD'}
