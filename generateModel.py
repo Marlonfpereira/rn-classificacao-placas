@@ -1,3 +1,6 @@
+# Geração do modelo com os hiperparâmetros encontrados por GridSearch
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import h5py
 import numpy as np
 from keras.optimizers import Adam

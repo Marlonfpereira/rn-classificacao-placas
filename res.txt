@@ -1,3 +1,4 @@
+Resultados obtidos com o GridSearch de épocas
 Best: 0.9749913811683655 using {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 50, 'learn_rate': 0.001, 'optimizer': 'Adam'}
 
 0,9534963667392731 (0,007371693849563599) with: {'batch_size': 50, 'conv_filters': 32, 'conv_layers': 1, 'dense_layers': 2, 'dense_units': 256, 'epochs': 10, 'learn_rate': 0,001, 'optimizer': 'Adam'}
