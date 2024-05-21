@@ -1,4 +1,6 @@
-# Importar as bibliotecas necessárias
+# Criação da matriz de confusão com o modelo treinado
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay

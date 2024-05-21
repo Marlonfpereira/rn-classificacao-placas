@@ -1,3 +1,6 @@
+# Realização da GridSearch sob os parâmetros definidos (linha 63)
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import h5py
 import numpy as np
 from keras.utils import to_categorical
@@ -5,7 +8,6 @@ from keras.models import Sequential
 from keras.layers import Dense, Conv2D, Flatten, MaxPooling2D
 from keras.optimizers import SGD, Adam, RMSprop
 from keras.wrappers.scikit_learn import KerasClassifier
-# from scikeras.wrappers import KerasClassifier
 from sklearn.model_selection import GridSearchCV, train_test_split
 from tqdm import tqdm 
 
@@ -57,7 +59,7 @@ def create_model(optimizer='adam', learn_rate=0.001, init_mode='uniform',
 model = KerasClassifier(build_fn=create_model, verbose=0)
 
 # Definir os parâmetros do grid search
-param_grid = { # 768
+param_grid = { # 64
     'batch_size': [50,100],
     'epochs': [5],
     'optimizer': ['SGD', 'Adam'],

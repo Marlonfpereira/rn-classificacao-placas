@@ -1,0 +1,1215 @@
+0-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+1-------------
+Prediction: 15
+True label: 15
+Description of prediction: No vehicles
+Description of true label: No vehicles
+2-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+3-------------
+Prediction: 32
+True label: 42
+Description of prediction: End of all speed and passing limits
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+4-------------
+Prediction: 26
+True label: 26
+Description of prediction: Traffic signals
+Description of true label: Traffic signals
+5-------------
+Prediction: 32
+True label: 6
+Description of prediction: End of all speed and passing limits
+Description of true label: End of speed limit (80km/h)
+6-------------
+Prediction: 7
+True label: 7
+Description of prediction: Speed limit (100km/h)
+Description of true label: Speed limit (100km/h)
+7-------------
+Prediction: 29
+True label: 29
+Description of prediction: Bicycles crossing
+Description of true label: Bicycles crossing
+8-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+9-------------
+Prediction: 21
+True label: 21
+Description of prediction: Double curve
+Description of true label: Double curve
+10-------------
+Prediction: 17
+True label: 17
+Description of prediction: No entry
+Description of true label: No entry
+11-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+12-------------
+Prediction: 42
+True label: 42
+Description of prediction: End of no passing by vehicles over 3.5 metric tons
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+13-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+14-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+15-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+16-------------
+Prediction: 9
+True label: 9
+Description of prediction: No passing
+Description of true label: No passing
+17-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+18-------------
+Prediction: 18
+True label: 18
+Description of prediction: General caution
+Description of true label: General caution
+19-------------
+Prediction: 25
+True label: 25
+Description of prediction: Road work
+Description of true label: Road work
+20-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+21-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+22-------------
+Prediction: 20
+True label: 23
+Description of prediction: Dangerous curve to the right
+Description of true label: Slippery road
+23-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+24-------------
+Prediction: 21
+True label: 29
+Description of prediction: Double curve
+Description of true label: Bicycles crossing
+25-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+26-------------
+Prediction: 32
+True label: 40
+Description of prediction: End of all speed and passing limits
+Description of true label: Roundabout mandatory
+27-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+28-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+29-------------
+Prediction: 32
+True label: 42
+Description of prediction: End of all speed and passing limits
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+30-------------
+Prediction: 7
+True label: 7
+Description of prediction: Speed limit (100km/h)
+Description of true label: Speed limit (100km/h)
+31-------------
+Prediction: 14
+True label: 14
+Description of prediction: Stop
+Description of true label: Stop
+32-------------
+Prediction: 26
+True label: 22
+Description of prediction: Traffic signals
+Description of true label: Bumpy road
+33-------------
+Prediction: 38
+True label: 42
+Description of prediction: Keep right
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+34-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+35-------------
+Prediction: 14
+True label: 14
+Description of prediction: Stop
+Description of true label: Stop
+36-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+37-------------
+Prediction: 20
+True label: 20
+Description of prediction: Dangerous curve to the right
+Description of true label: Dangerous curve to the right
+38-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+39-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+40-------------
+Prediction: 23
+True label: 19
+Description of prediction: Slippery road
+Description of true label: Dangerous curve to the left
+41-------------
+Prediction: 34
+True label: 33
+Description of prediction: Turn left ahead
+Description of true label: Turn right ahead
+42-------------
+Prediction: 21
+True label: 15
+Description of prediction: Double curve
+Description of true label: No vehicles
+43-------------
+Prediction: 25
+True label: 25
+Description of prediction: Road work
+Description of true label: Road work
+44-------------
+Prediction: 27
+True label: 27
+Description of prediction: Pedestrians
+Description of true label: Pedestrians
+45-------------
+Prediction: 33
+True label: 33
+Description of prediction: Turn right ahead
+Description of true label: Turn right ahead
+46-------------
+Prediction: 11
+True label: 24
+Description of prediction: Right-of-way at the next intersection
+Description of true label: Road narrows on the right
+47-------------
+Prediction: 24
+True label: 19
+Description of prediction: Road narrows on the right
+Description of true label: Dangerous curve to the left
+48-------------
+Prediction: 41
+True label: 41
+Description of prediction: End of no passing
+Description of true label: End of no passing
+49-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+50-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+51-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+52-------------
+Prediction: 7
+True label: 7
+Description of prediction: Speed limit (100km/h)
+Description of true label: Speed limit (100km/h)
+53-------------
+Prediction: 9
+True label: 9
+Description of prediction: No passing
+Description of true label: No passing
+54-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+55-------------
+Prediction: 27
+True label: 27
+Description of prediction: Pedestrians
+Description of true label: Pedestrians
+56-------------
+Prediction: 18
+True label: 18
+Description of prediction: General caution
+Description of true label: General caution
+57-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+58-------------
+Prediction: 25
+True label: 25
+Description of prediction: Road work
+Description of true label: Road work
+59-------------
+Prediction: 30
+True label: 30
+Description of prediction: Beware of ice/snow
+Description of true label: Beware of ice/snow
+60-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+61-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+62-------------
+Prediction: 13
+True label: 15
+Description of prediction: Yield
+Description of true label: No vehicles
+63-------------
+Prediction: 9
+True label: 9
+Description of prediction: No passing
+Description of true label: No passing
+64-------------
+Prediction: 4
+True label: 7
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (100km/h)
+65-------------
+Prediction: 41
+True label: 41
+Description of prediction: End of no passing
+Description of true label: End of no passing
+66-------------
+Prediction: 21
+True label: 21
+Description of prediction: Double curve
+Description of true label: Double curve
+67-------------
+Prediction: 15
+True label: 22
+Description of prediction: No vehicles
+Description of true label: Bumpy road
+68-------------
+Prediction: 22
+True label: 22
+Description of prediction: Bumpy road
+Description of true label: Bumpy road
+69-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+70-------------
+Prediction: 21
+True label: 21
+Description of prediction: Double curve
+Description of true label: Double curve
+71-------------
+Prediction: 9
+True label: 9
+Description of prediction: No passing
+Description of true label: No passing
+72-------------
+Prediction: 14
+True label: 14
+Description of prediction: Stop
+Description of true label: Stop
+73-------------
+Prediction: 23
+True label: 23
+Description of prediction: Slippery road
+Description of true label: Slippery road
+74-------------
+Prediction: 36
+True label: 36
+Description of prediction: Go straight or right
+Description of true label: Go straight or right
+75-------------
+Prediction: 32
+True label: 42
+Description of prediction: End of all speed and passing limits
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+76-------------
+Prediction: 38
+True label: 23
+Description of prediction: Keep right
+Description of true label: Slippery road
+77-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+78-------------
+Prediction: 23
+True label: 23
+Description of prediction: Slippery road
+Description of true label: Slippery road
+79-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+80-------------
+Prediction: 2
+True label: 2
+Description of prediction: Speed limit (50km/h)
+Description of true label: Speed limit (50km/h)
+81-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+82-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+83-------------
+Prediction: 32
+True label: 16
+Description of prediction: End of all speed and passing limits
+Description of true label: Vehicles over 3.5 metric tons prohibited
+84-------------
+Prediction: 32
+True label: 6
+Description of prediction: End of all speed and passing limits
+Description of true label: End of speed limit (80km/h)
+85-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+86-------------
+Prediction: 17
+True label: 17
+Description of prediction: No entry
+Description of true label: No entry
+87-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+88-------------
+Prediction: 36
+True label: 24
+Description of prediction: Go straight or right
+Description of true label: Road narrows on the right
+89-------------
+Prediction: 33
+True label: 33
+Description of prediction: Turn right ahead
+Description of true label: Turn right ahead
+90-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+91-------------
+Prediction: 11
+True label: 11
+Description of prediction: Right-of-way at the next intersection
+Description of true label: Right-of-way at the next intersection
+92-------------
+Prediction: 27
+True label: 27
+Description of prediction: Pedestrians
+Description of true label: Pedestrians
+93-------------
+Prediction: 26
+True label: 26
+Description of prediction: Traffic signals
+Description of true label: Traffic signals
+94-------------
+Prediction: 26
+True label: 11
+Description of prediction: Traffic signals
+Description of true label: Right-of-way at the next intersection
+95-------------
+Prediction: 32
+True label: 6
+Description of prediction: End of all speed and passing limits
+Description of true label: End of speed limit (80km/h)
+96-------------
+Prediction: 14
+True label: 14
+Description of prediction: Stop
+Description of true label: Stop
+97-------------
+Prediction: 26
+True label: 24
+Description of prediction: Traffic signals
+Description of true label: Road narrows on the right
+98-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+99-------------
+Prediction: 21
+True label: 21
+Description of prediction: Double curve
+Description of true label: Double curve
+100-------------
+Prediction: 22
+True label: 22
+Description of prediction: Bumpy road
+Description of true label: Bumpy road
+101-------------
+Prediction: 28
+True label: 28
+Description of prediction: Children crossing
+Description of true label: Children crossing
+102-------------
+Prediction: 41
+True label: 11
+Description of prediction: End of no passing
+Description of true label: Right-of-way at the next intersection
+103-------------
+Prediction: 35
+True label: 35
+Description of prediction: Ahead only
+Description of true label: Ahead only
+104-------------
+Prediction: 17
+True label: 17
+Description of prediction: No entry
+Description of true label: No entry
+105-------------
+Prediction: 36
+True label: 36
+Description of prediction: Go straight or right
+Description of true label: Go straight or right
+106-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+107-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+108-------------
+Prediction: 32
+True label: 16
+Description of prediction: End of all speed and passing limits
+Description of true label: Vehicles over 3.5 metric tons prohibited
+109-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+110-------------
+Prediction: 7
+True label: 10
+Description of prediction: Speed limit (100km/h)
+Description of true label: No passing for vehicles over 3.5 metric tons
+111-------------
+Prediction: 39
+True label: 39
+Description of prediction: Keep left
+Description of true label: Keep left
+112-------------
+Prediction: 10
+True label: 10
+Description of prediction: No passing for vehicles over 3.5 metric tons
+Description of true label: No passing for vehicles over 3.5 metric tons
+113-------------
+Prediction: 25
+True label: 25
+Description of prediction: Road work
+Description of true label: Road work
+114-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+115-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+116-------------
+Prediction: 29
+True label: 29
+Description of prediction: Bicycles crossing
+Description of true label: Bicycles crossing
+117-------------
+Prediction: 2
+True label: 2
+Description of prediction: Speed limit (50km/h)
+Description of true label: Speed limit (50km/h)
+118-------------
+Prediction: 15
+True label: 15
+Description of prediction: No vehicles
+Description of true label: No vehicles
+119-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+120-------------
+Prediction: 21
+True label: 31
+Description of prediction: Double curve
+Description of true label: Wild animals crossing
+121-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+122-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+123-------------
+Prediction: 23
+True label: 29
+Description of prediction: Slippery road
+Description of true label: Bicycles crossing
+124-------------
+Prediction: 15
+True label: 15
+Description of prediction: No vehicles
+Description of true label: No vehicles
+125-------------
+Prediction: 32
+True label: 6
+Description of prediction: End of all speed and passing limits
+Description of true label: End of speed limit (80km/h)
+126-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+127-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+128-------------
+Prediction: 35
+True label: 35
+Description of prediction: Ahead only
+Description of true label: Ahead only
+129-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+130-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+131-------------
+Prediction: 28
+True label: 28
+Description of prediction: Children crossing
+Description of true label: Children crossing
+132-------------
+Prediction: 31
+True label: 31
+Description of prediction: Wild animals crossing
+Description of true label: Wild animals crossing
+133-------------
+Prediction: 21
+True label: 19
+Description of prediction: Double curve
+Description of true label: Dangerous curve to the left
+134-------------
+Prediction: 17
+True label: 17
+Description of prediction: No entry
+Description of true label: No entry
+135-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+136-------------
+Prediction: 33
+True label: 33
+Description of prediction: Turn right ahead
+Description of true label: Turn right ahead
+137-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+138-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+139-------------
+Prediction: 11
+True label: 27
+Description of prediction: Right-of-way at the next intersection
+Description of true label: Pedestrians
+140-------------
+Prediction: 25
+True label: 25
+Description of prediction: Road work
+Description of true label: Road work
+141-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+142-------------
+Prediction: 8
+True label: 40
+Description of prediction: Speed limit (120km/h)
+Description of true label: Roundabout mandatory
+143-------------
+Prediction: 21
+True label: 33
+Description of prediction: Double curve
+Description of true label: Turn right ahead
+144-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+145-------------
+Prediction: 26
+True label: 22
+Description of prediction: Traffic signals
+Description of true label: Bumpy road
+146-------------
+Prediction: 17
+True label: 17
+Description of prediction: No entry
+Description of true label: No entry
+147-------------
+Prediction: 13
+True label: 36
+Description of prediction: Yield
+Description of true label: Go straight or right
+148-------------
+Prediction: 32
+True label: 30
+Description of prediction: End of all speed and passing limits
+Description of true label: Beware of ice/snow
+149-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+150-------------
+Prediction: 40
+True label: 40
+Description of prediction: Roundabout mandatory
+Description of true label: Roundabout mandatory
+151-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+152-------------
+Prediction: 19
+True label: 19
+Description of prediction: Dangerous curve to the left
+Description of true label: Dangerous curve to the left
+153-------------
+Prediction: 7
+True label: 16
+Description of prediction: Speed limit (100km/h)
+Description of true label: Vehicles over 3.5 metric tons prohibited
+154-------------
+Prediction: 5
+True label: 5
+Description of prediction: Speed limit (80km/h)
+Description of true label: Speed limit (80km/h)
+155-------------
+Prediction: 42
+True label: 42
+Description of prediction: End of no passing by vehicles over 3.5 metric tons
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+156-------------
+Prediction: 35
+True label: 35
+Description of prediction: Ahead only
+Description of true label: Ahead only
+157-------------
+Prediction: 26
+True label: 26
+Description of prediction: Traffic signals
+Description of true label: Traffic signals
+158-------------
+Prediction: 12
+True label: 12
+Description of prediction: Priority road
+Description of true label: Priority road
+159-------------
+Prediction: 19
+True label: 19
+Description of prediction: Dangerous curve to the left
+Description of true label: Dangerous curve to the left
+160-------------
+Prediction: 32
+True label: 14
+Description of prediction: End of all speed and passing limits
+Description of true label: Stop
+161-------------
+Prediction: 28
+True label: 28
+Description of prediction: Children crossing
+Description of true label: Children crossing
+162-------------
+Prediction: 32
+True label: 20
+Description of prediction: End of all speed and passing limits
+Description of true label: Dangerous curve to the right
+163-------------
+Prediction: 26
+True label: 22
+Description of prediction: Traffic signals
+Description of true label: Bumpy road
+164-------------
+Prediction: 7
+True label: 7
+Description of prediction: Speed limit (100km/h)
+Description of true label: Speed limit (100km/h)
+165-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+166-------------
+Prediction: 14
+True label: 14
+Description of prediction: Stop
+Description of true label: Stop
+167-------------
+Prediction: 32
+True label: 40
+Description of prediction: End of all speed and passing limits
+Description of true label: Roundabout mandatory
+168-------------
+Prediction: 32
+True label: 8
+Description of prediction: End of all speed and passing limits
+Description of true label: Speed limit (120km/h)
+169-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+170-------------
+Prediction: 32
+True label: 29
+Description of prediction: End of all speed and passing limits
+Description of true label: Bicycles crossing
+171-------------
+Prediction: 42
+True label: 42
+Description of prediction: End of no passing by vehicles over 3.5 metric tons
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+172-------------
+Prediction: 32
+True label: 14
+Description of prediction: End of all speed and passing limits
+Description of true label: Stop
+173-------------
+Prediction: 36
+True label: 36
+Description of prediction: Go straight or right
+Description of true label: Go straight or right
+174-------------
+Prediction: 24
+True label: 24
+Description of prediction: Road narrows on the right
+Description of true label: Road narrows on the right
+175-------------
+Prediction: 0
+True label: 0
+Description of prediction: Speed limit (20km/h)
+Description of true label: Speed limit (20km/h)
+176-------------
+Prediction: 41
+True label: 41
+Description of prediction: End of no passing
+Description of true label: End of no passing
+177-------------
+Prediction: 26
+True label: 26
+Description of prediction: Traffic signals
+Description of true label: Traffic signals
+178-------------
+Prediction: 32
+True label: 3
+Description of prediction: End of all speed and passing limits
+Description of true label: Speed limit (60km/h)
+179-------------
+Prediction: 34
+True label: 34
+Description of prediction: Turn left ahead
+Description of true label: Turn left ahead
+180-------------
+Prediction: 19
+True label: 19
+Description of prediction: Dangerous curve to the left
+Description of true label: Dangerous curve to the left
+181-------------
+Prediction: 1
+True label: 25
+Description of prediction: Speed limit (30km/h)
+Description of true label: Road work
+182-------------
+Prediction: 32
+True label: 6
+Description of prediction: End of all speed and passing limits
+Description of true label: End of speed limit (80km/h)
+183-------------
+Prediction: 32
+True label: 41
+Description of prediction: End of all speed and passing limits
+Description of true label: End of no passing
+184-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+185-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+186-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+187-------------
+Prediction: 36
+True label: 19
+Description of prediction: Go straight or right
+Description of true label: Dangerous curve to the left
+188-------------
+Prediction: 31
+True label: 31
+Description of prediction: Wild animals crossing
+Description of true label: Wild animals crossing
+189-------------
+Prediction: 7
+True label: 7
+Description of prediction: Speed limit (100km/h)
+Description of true label: Speed limit (100km/h)
+190-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+191-------------
+Prediction: 22
+True label: 22
+Description of prediction: Bumpy road
+Description of true label: Bumpy road
+192-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+193-------------
+Prediction: 42
+True label: 42
+Description of prediction: End of no passing by vehicles over 3.5 metric tons
+Description of true label: End of no passing by vehicles over 3.5 metric tons
+194-------------
+Prediction: 34
+True label: 34
+Description of prediction: Turn left ahead
+Description of true label: Turn left ahead
+195-------------
+Prediction: 30
+True label: 30
+Description of prediction: Beware of ice/snow
+Description of true label: Beware of ice/snow
+196-------------
+Prediction: 38
+True label: 38
+Description of prediction: Keep right
+Description of true label: Keep right
+197-------------
+Prediction: 15
+True label: 15
+Description of prediction: No vehicles
+Description of true label: No vehicles
+198-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+199-------------
+Prediction: 39
+True label: 39
+Description of prediction: Keep left
+Description of true label: Keep left
+200-------------
+Prediction: 1
+True label: 5
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (80km/h)
+201-------------
+Prediction: 21
+True label: 21
+Description of prediction: Double curve
+Description of true label: Double curve
+202-------------
+Prediction: 32
+True label: 32
+Description of prediction: End of all speed and passing limits
+Description of true label: End of all speed and passing limits
+203-------------
+Prediction: 20
+True label: 20
+Description of prediction: Dangerous curve to the right
+Description of true label: Dangerous curve to the right
+204-------------
+Prediction: 21
+True label: 30
+Description of prediction: Double curve
+Description of true label: Beware of ice/snow
+205-------------
+Prediction: 11
+True label: 11
+Description of prediction: Right-of-way at the next intersection
+Description of true label: Right-of-way at the next intersection
+206-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+207-------------
+Prediction: 6
+True label: 6
+Description of prediction: End of speed limit (80km/h)
+Description of true label: End of speed limit (80km/h)
+208-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+209-------------
+Prediction: 32
+True label: 32
+Description of prediction: End of all speed and passing limits
+Description of true label: End of all speed and passing limits
+210-------------
+Prediction: 15
+True label: 22
+Description of prediction: No vehicles
+Description of true label: Bumpy road
+211-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+212-------------
+Prediction: 41
+True label: 41
+Description of prediction: End of no passing
+Description of true label: End of no passing
+213-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+214-------------
+Prediction: 37
+True label: 37
+Description of prediction: Go straight or left
+Description of true label: Go straight or left
+215-------------
+Prediction: 32
+True label: 20
+Description of prediction: End of all speed and passing limits
+Description of true label: Dangerous curve to the right
+216-------------
+Prediction: 2
+True label: 2
+Description of prediction: Speed limit (50km/h)
+Description of true label: Speed limit (50km/h)
+217-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+218-------------
+Prediction: 38
+True label: 32
+Description of prediction: Keep right
+Description of true label: End of all speed and passing limits
+219-------------
+Prediction: 18
+True label: 18
+Description of prediction: General caution
+Description of true label: General caution
+220-------------
+Prediction: 2
+True label: 2
+Description of prediction: Speed limit (50km/h)
+Description of true label: Speed limit (50km/h)
+221-------------
+Prediction: 35
+True label: 35
+Description of prediction: Ahead only
+Description of true label: Ahead only
+222-------------
+Prediction: 34
+True label: 34
+Description of prediction: Turn left ahead
+Description of true label: Turn left ahead
+223-------------
+Prediction: 3
+True label: 3
+Description of prediction: Speed limit (60km/h)
+Description of true label: Speed limit (60km/h)
+224-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+225-------------
+Prediction: 26
+True label: 24
+Description of prediction: Traffic signals
+Description of true label: Road narrows on the right
+226-------------
+Prediction: 14
+True label: 25
+Description of prediction: Stop
+Description of true label: Road work
+227-------------
+Prediction: 16
+True label: 16
+Description of prediction: Vehicles over 3.5 metric tons prohibited
+Description of true label: Vehicles over 3.5 metric tons prohibited
+228-------------
+Prediction: 26
+True label: 18
+Description of prediction: Traffic signals
+Description of true label: General caution
+229-------------
+Prediction: 18
+True label: 18
+Description of prediction: General caution
+Description of true label: General caution
+230-------------
+Prediction: 9
+True label: 9
+Description of prediction: No passing
+Description of true label: No passing
+231-------------
+Prediction: 36
+True label: 36
+Description of prediction: Go straight or right
+Description of true label: Go straight or right
+232-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield
+233-------------
+Prediction: 4
+True label: 4
+Description of prediction: Speed limit (70km/h)
+Description of true label: Speed limit (70km/h)
+234-------------
+Prediction: 38
+True label: 12
+Description of prediction: Keep right
+Description of true label: Priority road
+235-------------
+Prediction: 19
+True label: 19
+Description of prediction: Dangerous curve to the left
+Description of true label: Dangerous curve to the left
+236-------------
+Prediction: 32
+True label: 23
+Description of prediction: End of all speed and passing limits
+Description of true label: Slippery road
+237-------------
+Prediction: 8
+True label: 8
+Description of prediction: Speed limit (120km/h)
+Description of true label: Speed limit (120km/h)
+238-------------
+Prediction: 32
+True label: 41
+Description of prediction: End of all speed and passing limits
+Description of true label: End of no passing
+239-------------
+Prediction: 32
+True label: 8
+Description of prediction: End of all speed and passing limits
+Description of true label: Speed limit (120km/h)
+240-------------
+Prediction: 1
+True label: 1
+Description of prediction: Speed limit (30km/h)
+Description of true label: Speed limit (30km/h)
+241-------------
+Prediction: 21
+True label: 30
+Description of prediction: Double curve
+Description of true label: Beware of ice/snow
+242-------------
+Prediction: 13
+True label: 13
+Description of prediction: Yield
+Description of true label: Yield

@@ -1,3 +1,6 @@
+# Teste de quantidade de épocas adequadas aos parâmetros obtidos em grid search
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import h5py
 import numpy as np
 from keras.utils import to_categorical
