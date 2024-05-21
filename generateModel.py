@@ -43,7 +43,7 @@ model.add(Dense(43, activation='softmax'))
 model.compile(optimizer=ot, loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Exibindo a arquitetura do modelo
-history = model.fit(X_train, Y_train, epochs=1, batch_size=50, validation_data=(X_val, Y_val))
+history = model.fit(X_train, Y_train, epochs=50, batch_size=50, validation_data=(X_val, Y_val))
 
 model.save('modelo.h5')
 
