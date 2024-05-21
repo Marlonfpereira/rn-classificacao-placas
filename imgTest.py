@@ -1,7 +1,8 @@
-# Importar as bibliotecas necessárias
+# Realização de testes de predição com o dataset e menu de verificação das imagens preditas
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 from keras.models import load_model
 from keras.utils import to_categorical
 import h5py
