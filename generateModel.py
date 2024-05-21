@@ -1,9 +1,8 @@
+# Geração do modelo com os hiperparâmetros encontrados por GridSearch
+# Igor Gris, Marlon Pereira e Ronaldo Drecksler
+
 import h5py
 import numpy as np
-# import matplotlib.pyplot as plt
-
-
-
 from keras.optimizers import Adam
 from keras.utils import to_categorical
 from keras.models import Sequential
@@ -13,17 +12,8 @@ ot = Adam(learning_rate=0.001)
 
 
 with h5py.File('dataset_ts_original.hdf5', 'r') as hf:
-     # Iterar sobre os grupos e conjuntos de dados no arquivo
-    def print_attrs(name, obj):
-        print(name)
-        for key, val in obj.attrs.items():
-            print("    {}: {}".format(key, val))
-
-    print("Estrutura interna do arquivo HDF5:")
-    hf.visititems(print_attrs)
-
-
-
+    X_val = np.array(hf['x_validation'])/255.0
+    Y_val = to_categorical(np.array(hf['y_validation']))
     X_train = np.array(hf['x_train'])/255.0
     Y_train = to_categorical( np.array(hf['y_train']))
     X_test = np.array(hf['x_test'])/255.0
@@ -53,7 +43,7 @@ model.add(Dense(43, activation='softmax'))
 model.compile(optimizer=ot, loss='categorical_crossentropy', metrics=['accuracy'])
 
 # Exibindo a arquitetura do modelo
-history = model.fit(X_train, Y_train, epochs=40, batch_size=50)
+history = model.fit(X_train, Y_train, epochs=1, batch_size=50, validation_data=(X_val, Y_val))
 
 model.save('modelo.h5')
 
